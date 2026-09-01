@@ -222,4 +222,5 @@ def update_user(old_email: str, user: UpdateUser):
     return {
         "message": "User updated successfully",
         "data": user_exist
+        
     }
